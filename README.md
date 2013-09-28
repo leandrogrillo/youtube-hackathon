@@ -6,5 +6,5 @@ App criado no Youtube Developer Day durante Hackathon utilizando a API do Youtub
 Integrantes:
 - Birulão (Mario)
 - Russo (Leandro)
-- enando
+- Fenando
 - Hugo
