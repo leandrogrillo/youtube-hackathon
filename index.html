@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Listagem de Video</title>
+    <link href="css/main.css" rel="stylesheet" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/youtubeAPI.js"></script>
+    <script src="js/YoutubeAPIModal.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <main role="main" class="main-content">
+		<h1 class="main-tt">Busca</h1>
+		<div class="search-holder">
+			<input type="text" class="ipt-search">
+			<input type="submit" value="Buscar" class="ipt-submit">
+            <span class="tipo-filtro">Modo de exibicao: <a href="#" class="tipo-lista" data-classe="lista">Lista</a> <a href="#" class="tipo-lista" data-classe="tabela">Tabela</a></span>
+		</div>
+    <div>
+    <div id="search-container">
+        <ol id="list-yt" class="lista"></ol>
+    </div>
+    </div>
+	</main>
+    <div class="video-holder">
+        <div class="video">
+            <iframe width="640" height="480" src="" frameborder="0" allowfullscreen></iframe>
+            <a class="close" href="#">Fechar</a>
+        </div>
+    </div>
+    <div class="mask"></div>
+</body>
+</html>
